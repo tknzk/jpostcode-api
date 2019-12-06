@@ -18,6 +18,8 @@ get '/:postcode' do
             city_kana: address.city_kana,
             town: address.town,
             town_kana: address.town_kana,
+            office_name: address.office_name,
+            office_name_kana: address.office_name_kana,
             zip_code: address.zip_code
           }
         end
