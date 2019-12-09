@@ -5,7 +5,11 @@ require 'sinatra'
 require 'sinatra/json'
 require 'jpostcode'
 
-get '/:postcode' do
+get '/' do
+  erb :index, format: :html5
+end
+
+get '/find/:postcode' do
   address = Jpostcode.find(params[:postcode])
   ret = if address.nil?
           {}
