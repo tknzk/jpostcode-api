@@ -10,7 +10,9 @@ Run
 $ bundle exec shotgun
 ```
 
-Then open: `localhost:9393/POSTCODE`
+Then open:
+- `localhost:9393/`
+- `localhost:9393/find/POSTCODE`
 
 # original data
 - [jpostcode-rb](https://github.com/kufu/jpostcode-rb)
