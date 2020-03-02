@@ -2,21 +2,21 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
-    backports (3.15.0)
+    backports (3.16.1)
     jaro_winkler (1.5.4)
-    jpostcode (1.0.0.20200201)
+    jpostcode (1.0.0.20200302)
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     parallel (1.19.1)
-    parser (2.7.0.2)
+    parser (2.7.0.3)
       ast (~> 2.4.0)
-    rack (2.1.2)
+    rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
     rainbow (3.0.0)
     rexml (3.2.4)
-    rubocop (0.80.0)
+    rubocop (0.80.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
@@ -57,4 +57,4 @@ DEPENDENCIES
   sinatra-contrib
 
 BUNDLED WITH
-   2.1.4
+   2.0.2
