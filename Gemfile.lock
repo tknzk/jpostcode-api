@@ -3,7 +3,7 @@ GEM
   specs:
     ast (2.4.1)
     backports (3.17.2)
-    jpostcode (1.0.0.20200701)
+    jpostcode (1.0.0.20200801)
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
