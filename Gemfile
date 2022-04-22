@@ -4,9 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-if (v = ENV['CUSTOM_RUBY_VERSION'])
-  ruby v
-end
+ruby File.read('.ruby-version').rstrip
 
 gem 'sinatra'
 gem 'sinatra-contrib'
