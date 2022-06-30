@@ -3,6 +3,7 @@ GEM
   specs:
     ast (2.4.2)
     jpostcode (1.0.0.20220601)
+    json (2.6.2)
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -15,7 +16,8 @@ GEM
     rainbow (3.1.1)
     regexp_parser (2.5.0)
     rexml (3.2.5)
-    rubocop (1.31.0)
+    rubocop (1.31.1)
+      json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
