@@ -16,5 +16,4 @@ gem 'puma'
 group :test, :development do
   gem 'rubocop'
   gem 'rubocop-performance'
-  gem 'shotgun'
 end
