@@ -7,7 +7,7 @@ $ bundle install
 Run
 
 ```
-$ bundle exec shotgun
+$ bundle exec ruby app.rb -p $PORT
 ```
 
 Then open:
