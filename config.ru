@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'sinatra'
+require 'puma'
 
 require './app'
 

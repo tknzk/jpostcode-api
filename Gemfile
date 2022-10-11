@@ -11,6 +11,7 @@ end
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'jpostcode'
+gem 'puma'
 
 group :test, :development do
   gem 'rubocop'
