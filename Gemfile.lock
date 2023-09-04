@@ -3,7 +3,7 @@ GEM
   specs:
     ast (2.4.2)
     base64 (0.1.1)
-    jpostcode (1.0.0.20230801)
+    jpostcode (1.0.0.20230901)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     multi_json (1.15.0)
