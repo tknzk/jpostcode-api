@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    jpostcode (1.0.0.20231001)
+    jpostcode (1.0.0.20231101)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     multi_json (1.15.0)
