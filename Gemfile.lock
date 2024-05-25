@@ -16,7 +16,7 @@ GEM
       racc
     puma (6.4.2)
       nio4r (~> 2.0)
-    racc (1.7.3)
+    racc (1.8.0)
     rack (3.0.9.1)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
@@ -24,9 +24,10 @@ GEM
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rainbow (3.1.1)
-    regexp_parser (2.9.0)
-    rexml (3.2.6)
-    rubocop (1.63.5)
+    regexp_parser (2.9.2)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
+    rubocop (1.64.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -56,6 +57,7 @@ GEM
       rack-protection (= 4.0.0)
       sinatra (= 4.0.0)
       tilt (~> 2.0)
+    strscan (3.1.0)
     tilt (2.3.0)
     unicode-display_width (2.5.0)
 
@@ -65,7 +67,7 @@ PLATFORMS
 DEPENDENCIES
   jpostcode
   puma
-  rubocop
+  rubocop (>= 1.64.0)
   rubocop-performance
   sinatra (>= 4.0.0)
   sinatra-contrib (>= 4.0.0)
