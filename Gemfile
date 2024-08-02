@@ -14,6 +14,6 @@ gem 'jpostcode'
 gem 'puma'
 
 group :test, :development do
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.65.1'
   gem 'rubocop-performance'
 end
