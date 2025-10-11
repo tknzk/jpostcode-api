@@ -8,8 +8,8 @@ if (v = ENV['CUSTOM_RUBY_VERSION'])
   ruby v
 end
 
-gem 'sinatra', '>= 4.1.0'
-gem 'sinatra-contrib', '>= 4.1.0'
+gem 'sinatra', '>= 4.2.0'
+gem 'sinatra-contrib', '>= 4.2.0'
 gem 'jpostcode'
 gem 'puma'
 
